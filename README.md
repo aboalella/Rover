@@ -21,12 +21,12 @@ Commands the rover will get will always be valid, so no need to guard against in
 The rover receives a string of multiple commands and returns its position after executing commands. 
 For example, assuming rover’s starting position is “0:0:N”, sending "RMMLML" to the rover will move it to "2:1:W".
 
-Input "RMMLML"
-Output "2:1:W"
-0.0N
-R 0.0E
-M 1.0E
-M 2.0E
-L 2.0N
-M 2.1N
-L 2.1W
+#### Input "RMMLML"
+#### Output "2:1:W"
+>> 0.0N 
+>> R  0.0E
+>> M 1.0E
+>> M 2.0E
+>> L 2.0N
+>> M 2.1N
+>> L 2.1W
